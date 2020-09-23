@@ -14,5 +14,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Author: Jivko Atanassov",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhim57/Eat-Da-Burger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhim57/Eat-Da-Burger/issues"
+  },
+  "homepage": "https://github.com/zhim57/Eat-Da-Burger#readme"
 }
