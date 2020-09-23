@@ -64,3 +64,9 @@ li {
       color:white;
 
     }
+    .choiceBout, 
+    .leftBout, 
+    .rightBout {
+      height: 750px;
+      background-color: lightgray;
+    }
