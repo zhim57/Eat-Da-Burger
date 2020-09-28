@@ -70,3 +70,45 @@ li {
       height: 750px;
       background-color: lightgray;
     }
+
+    @media (max-width: 600px) {
+      
+      .leftBout, 
+      .rightBout {
+        height: 500px;
+        background-color: lightgray;
+        width: 420px;
+        display:block;
+        align-content: center;
+        margin: auto;
+      }
+      .choiceB,
+      .leftB,
+      .rightB{
+        height:400px;
+        width: 380px;
+        display:block;
+        margin: auto;
+      }
+      body{
+        /* background-color: hotpink; */
+      }
+      .choiceBout{
+        height:160px;
+        width:420px;
+        margin: auto;
+      }
+    }
+    
+    /* @media screen and (min-width: 992px) {
+      .  {
+       
+      }
+    }
+    
+    @media (max-width: 640px) {
+      .  {
+       
+      }
+      
+    } */

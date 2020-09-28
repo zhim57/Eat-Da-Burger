@@ -1,0 +1,11 @@
+<li>
+	{{name}}
+
+	{{!-- <button class="but change-selected" data-id="{{id}}" data-newselected="{{selected}}"> --}}
+		<input type="checkbox" id="change-selected"   data-id="{{id}}" data-newselected="{{selected}}">
+<label for="change-selected">sel</label>
+		{{#if selected }}Remove{{else}}Select!{{/if}}
+	</button>
+
+	<button class="but delete-ingredient fa fa-trash   " data-id="{{this.id}}"></button>
+</li>
