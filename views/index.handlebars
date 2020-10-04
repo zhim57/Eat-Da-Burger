@@ -16,26 +16,27 @@
     </div>
 
     <div class="col-sm-4 col-md-4 col-lg-4 choiceBout ">
-      <h2>Add a Burger of Your Choise!</h2>
+      <h2>Make a Burger!</h2>
       <form class="create-form">
         <div class="form-group">
           <label for="ca">Burger Name:</label>
           <input type="text" id="ca" name="name">
+          <button type="submit" class=" choice-ja inline">Add it!</button>
         </div>
-        <button type="submit">Add a Burger</button>
       </form>
       <form class="ping-form">
-                  
+
         <div class="form-group">
-          <label for="ca-ing">Ingredient Name:</label>
+          <label for="ca-ing">Ingredient:</label>
           <input type="text" id="ca-ing" name="name">
-          <label for="ca-ing-price">Ingredient price:</label>
+          <label for="ca-ing-price"> $:</label>
           <input type="text" id="ca-ing-price" name="price">
-          <label for="vegetarian">Vegetarian?</label><br>
-          <input type="radio" name="vegetarian" value="1" > Vegetarian! 
-          <input type="radio" name="vegetarian" value="0"> Non vegetarian!
+          <label for="vegetarian"></label><br>
+          <input type="radio" name="vegetarian" value="1"> Vegan
+          <input type="radio" name="vegetarian" value="0"> Non-vegan
+          <input type="radio" name="vegetarian" value="2"> Non-Human
+          <button type="submit" class="inline">Add ingredient</button>
         </div>
-        <button  type="submit">Add an ingredient</button>
       </form>
       <ul class="choiceB">
         {{#each ingredients}}
@@ -56,4 +57,5 @@
     </div>
 
   </div>
+  
 </div>

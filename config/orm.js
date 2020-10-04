@@ -1,6 +1,5 @@
 // Import MySQL connection.
 var connection = require("../config/connection.js");
-
 var connectionQuery = require('util').promisify(connection.query.bind(connection));
 
 // Helper function for SQL syntax.
@@ -33,7 +32,7 @@ function objToSql(ob) {
       }
       // e.g. {name: 'Lana Del Grey'} => ["name='Lana Del Grey'"]
       // e.g. {sleepy: true} => ["sleepy=true"]
-      arr.push(key + "=" + value);
+      arr.push(key + "=" + "'"+ value+"'");
     }
   }
 

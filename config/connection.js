@@ -13,12 +13,6 @@ connection = mysql.createConnection( process.env.JAWSDB_URL)
     database: "burger_db"
   });
 }
-
-
-
-
-
-
 // Make connection.
 connection.connect(function(err) {
   if (err) {

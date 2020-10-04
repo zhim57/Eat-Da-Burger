@@ -1,11 +1,11 @@
-<li>
-	{{name}}
+<li class="ingredients">
+	{{name}} {{price}}
 
-	{{!-- <button class="but change-selected" data-id="{{id}}" data-newselected="{{selected}}"> --}}
-		<input type="checkbox" id="change-selected"   data-id="{{id}}" data-newselected="{{selected}}">
-<label for="change-selected">sel</label>
-		{{#if selected }}Remove{{else}}Select!{{/if}}
+			<input type="checkbox" class="change-selected"  {{checked}} data-id="{{id}}"  data-newselected="{{selected}}">
+<label for="change-selected"></label>
+		{{!-- {{#if selected}}Remove!{{else}}Add!{{/if}} --}}
 	</button>
 
-	<button class="but delete-ingredient fa fa-trash   " data-id="{{this.id}}"></button>
+	{{!-- <button class="but delete-ingredient fa fa-trash   " data-id="{{this.id}}"></button> --}}
+	<a htef="del" class=" delete-ingredient fa fa-trash   " data-id="{{this.id}}"></a>
 </li>
