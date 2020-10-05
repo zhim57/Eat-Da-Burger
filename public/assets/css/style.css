@@ -10,6 +10,7 @@
 li {
   padding: 5px;
   margin: 5px;
+  
   /* background: #faebd7; */
   }
 
@@ -56,6 +57,7 @@ li {
   padding: 20px;
   min-width: 33%;
   height: 542px;
+  list-style-type: none;
 
   }
 .but{
