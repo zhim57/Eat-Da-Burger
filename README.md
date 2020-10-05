@@ -53,7 +53,7 @@ please email Jivko Atanassov with any questions at: zhim57@yahoo.com. Thank You.
 
 ![screenshot no.1 of the working application](Fig1.JPG)
 
-![screenshot no.2 of the working application](fig2.JPG)
+![screenshot no.2 of the working application](Fig2.JPG)
 
 
   
