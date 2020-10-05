@@ -128,8 +128,8 @@ router.post("/api/ingredient/create", function (req, res) {
 
 router.put("/api/ingredients/select/:id", function (req, res) {
   var condition = "id = " + req.params.id;
-  var cols = Object.entries(req.body).map(e => e[0]);
-  var vals = Object.entries(req.body).map(e => e[1]);
+  // var cols = Object.entries(req.body).map(e => e[0]);
+  // var vals = Object.entries(req.body).map(e => e[1]);
 
   ingredient.update({
     selected: req.body.selected,

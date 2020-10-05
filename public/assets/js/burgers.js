@@ -114,7 +114,7 @@ $(function () {
     if (newSelected === 0) {
       console.log("newselected  === 0");
       newSelected = "1";
-      newChecked = "checked";
+      newChecked = "'checked'";
     } else {
       newSelected = "0";
       newChecked = "null";
