@@ -34,7 +34,7 @@ zhim57@yahoo.com
 ## Contributing
 none
 ## License
-![GitHub](https://img.shields.io/github/license/zhim57@yahoo.com/Eat-Da-Burger)
+![GitHub](https://img.shields.io/github/license/zhim57/Eat-Da-Burger)
 
 ## Tests
 functionality test
